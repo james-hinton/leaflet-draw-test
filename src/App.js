@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { MapContainer, TileLayer, FeatureGroup } from "react-leaflet";
 import { EditControl } from "react-leaflet-draw";
-import stacLayer from "stac-layer"; // This conflicts with react-leaflet-draw, comment this out to see that the draw tools are working
+// import stacLayer from "stac-layer"; // This conflicts with react-leaflet-draw, comment this out to see that the draw tools are working
 
 import "leaflet/dist/leaflet.css";
 import "leaflet-draw/dist/leaflet.draw.css";
