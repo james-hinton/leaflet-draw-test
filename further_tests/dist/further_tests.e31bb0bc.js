@@ -61449,7 +61449,8 @@ var _stacLayer = _interopRequireDefault(require("stac-layer"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // Import the necessary modules
 
-// Your JavaScript code
+// this is the module we are testing
+
 const map = _leaflet.default.map('map').setView([51.505, -0.09], 13);
 _leaflet.default.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19

@@ -1,9 +1,8 @@
 // Import the necessary modules
 import L from 'leaflet';
 import 'leaflet-draw';
-import stacLayer from 'stac-layer';
+import stacLayer from 'stac-layer'; // this is the module we are testing
 
-// Your JavaScript code
 const map = L.map('map').setView([51.505, -0.09], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
